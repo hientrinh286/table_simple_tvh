@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Simple</title>
+    <style>
+        .wufoo {
+        font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+        </style>
+</head>
+<body>
+    <form method="GET" action="form_tvh.html" class='wufoo'>
+        <h1>Order Form</h1>
+        <h3><p>What would you like to order?</p></h3>
+        <select>
+            <option value='coffee'>Coffee</option>
+            <option value='capuchino'>Capuchino</option>
+            <option value='Esspresso'>Esspresso</option>
+            <option value='milkcoffee'>Milk Coffee</option>
+            <option value='tea'>Tea</option>
+        </select>
+        <h3><p>How many would you like to order?</p></h3>
+        <input type='radio' name="rd">$10</input><br>
+        <input type='radio' name="rd">$20</input><br>
+        <input type='radio' name="rd">$30</input><br>
+        <h3><p>Name<span style="color:red">*</span></p></h3>
+        <input type='text' name='firstname' placeholder="First Name" size="20"/>
+        <input type='text' name='lastname' placeholder="Last Name" size="20"/> <br>
+        <h3><p>Email:</p></h3>
+        <input type='text' name='email' placeholder="Please input your email: e.x: abc@gmail.com" size='45'/>
+        <h3><p>Phone:</p></h3>
+        <input type='text' name='phone1' size=3 maxlength='4' placeholder='xxxx'> - </input>
+        <input type='text' name='phone2' size=3 maxlength='3' placeholder='xxx'> - </input> 
+        <input type='text' name='phone3' size=3 maxlength='3' placeholder= 'xxx'/><br>
+        <p><input type = "button" name="btSubmit" value="Submit"/> <input type='reset' name="Reset"/></p>
+    </form>
+    
+
+</body>
+</html>
